@@ -1,0 +1,957 @@
+Mono path[0] = 'E:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed'
+Mono config path = 'E:/SteamLibrary/steamapps/common/RimWorld/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.30f1 (e8c891080a1f)
+[Subsystems] Discovering subsystems at path E:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8081 MB
+    Driver:   31.0.15.3623
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.090 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.908900 ms
+RimWorld 1.5.4104 rev435
+Tried loading mod with the same packageId multiple times: Owlchemist.MidSaverSaver. Ignoring the duplicates.
+E:\SteamLibrary\steamapps\workshop\content\294100\2921585989
+E:\SteamLibrary\steamapps\workshop\content\294100\3261311100 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mod Ghoul Corpse Filter has a dependency (ludeon.rimworld.anomaly) with empty display name. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mod More Relic Quests has a dependency (Ludeon.RimWorld.Ideology) with empty display name. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Tried loading mod with the same packageId multiple times: Owlchemist.MidSaverSaver. Ignoring the duplicates.
+E:\SteamLibrary\steamapps\workshop\content\294100\2921585989
+E:\SteamLibrary\steamapps\workshop\content\294100\3261311100 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Fallback handler could not load library E:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000016509F69060.dll
+Fallback handler could not load library E:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001650A138C20.dll
+Fallback handler could not load library E:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001651358C010.dll
+[HugsLib] version 11.0.4
+[HugsLib] early-initializing AllowTool
+Loaded What's That Mod.
+[WhatsMissing] Patched Dialog_BillConfig
+UseMinifiedBuildings - QualityBuilder integration activated
+[UglyTogether]: Initialising Harmony
+Ugh You Got Me: Trying to patch MentalState_SocialFighting.ShouldStop.get.
+Ugh You Got Me: Patched MentalState_SocialFighting.ShouldStop.get.
+Ugh You Got Me: Trying to patch JobGiver_SocialFighting.TryGiveJob
+Ugh You Got Me: Patched JobGiver_SocialFighting.TryGiveJob.
+Hello world from SpecificWorkJobGiver
+Making Baby feeding Mech friendly succeeded
+Making Baby feeding Mech friendly succeeded
+Failed to find any calls to TicksGame in JobTrackerTick transpiler, nothing changed 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[WhatsMissing] Patched Dialog_BillConfig
+Fluffy Breakdowns :: Initialized
+Initialized OmniCoreDrill patches
+Error while instantiating a mod of type HugsLibChecker.HugsLibChecker: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.MissingMethodException: void Verse.Log.Error(string,bool)
+[Ref 8830D8A7]
+ at <0x165195e0270 + 0x0003a> <unknown method>
+ at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
+ at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+   --- End of inner exception stack trace ---
+[Ref 65D4FC7]
+ at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.Reflection.MonoCMethod.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0007a] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.Reflection.MonoCMethod.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x00213] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x00095] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at Verse.LoadedModManager.CreateModClasses () [0x00076] in <f0ac5eb9b52e4cc396c70fc9a4ee15e5>:0 
+     - TRANSPILER net.pardeike.rimworld.lib.harmony: IEnumerable`1 VisualExceptions.ExceptionsAndActivatorHandler:Transpiler(IEnumerable`1 instructions, MethodBase original) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[KB_Prioritize_Research] - patching to allow research prioritizing.
+QualityBuilder successfully patched Replace Stuff
+[BulkCarrier] applied.
+[WhatsMissing] Patched Dialog_BillConfig
+KunogiD.FloatMenuForOperation Patch finished
+[MadSkills]: settings initialized, multiplier is 0, not tiered, daily XP threshold is 12000, saturated XP multiplier is 0.2, Great Memory trait is altered.
+[MadSkills]: settings initialized, multiplier is 0, not tiered, daily XP threshold is 12000, saturated XP multiplier is 0.2, Great Memory trait is altered.
+[MadSkills]: settings initialized, multiplier is 0, not tiered, daily XP threshold is 12000, saturated XP multiplier is 0.2, Great Memory trait is altered.
+Fallback handler could not load library E:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000016516A00020.dll
+Fallback handler could not load library E:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000016516652020.dll
+Fallback handler could not load library E:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001651666AA60.dll
+Fallback handler could not load library E:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000016516675A70.dll
+Fallback handler could not load library E:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-0000016516682A80.dll
+Fallback handler could not load library E:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001651668A290.dll
+GAGARIN: <color=green>StartUpStarted called!</color>
+GAGARIN: <color=green>Cache found</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=yello>Cache disabled from</color>
+Gagarin.StartupHelper:StartUpStarted():0
+System.Reflection.MonoMethod:InternalInvoke():0
+System.Reflection.MonoMethod:Invoke():0
+System.Reflection.MethodBase:Invoke():0
+RocketMan.FunctionsUtility+<>c__DisplayClass1_0`1[[RocketMan.Main+OnInitialization, Cosmodrome, Version=0.6.3.2421, Culture=neutral, PublicKeyToken=null]]:<GetActions>b__3():0
+RocketMan.RocketMod:.ctor():0
+System.Reflection.MonoCMethod:InternalInvoke():0
+System.Reflection.MonoCMethod:InternalInvoke():0
+System.Reflection.MonoCMethod:DoInvoke():0
+System.Reflection.MonoCMethod:Invoke():0
+System.RuntimeType:CreateInstanceImpl():0
+System.Activator:CreateInstance():0
+System.Activator:CreateInstance():0
+Verse.LoadedModManager:CreateModClasses():0
+Verse.LoadedModManager:LoadAllActiveMods():0
+Verse.PlayDataLoader:DoPlayLoad():0
+Verse.PlayDataLoader:LoadAllPlayData():0
+Verse.Root+<>c:<Start>b__6_1():0
+Verse.LongEventHandler:RunEventFromAnotherThread():0
+Verse.LongEventHandler+<>c:<UpdateCurrentAsynchronousEvent>b__28_0():0
+System.Threading.ThreadHelper:ThreadStart_Context():0
+System.Threading.ExecutionContext:RunInternal():0
+System.Threading.ExecutionContext:Run():0
+System.Threading.ExecutionContext:Run():0
+System.Threading.ThreadHelper:ThreadStart():0 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: Mod list changed! Deleting cache 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=green>Cache not found or got purged!</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+b.4104:5/23/2024 12:00:00 AM:1.5.4104 rev435
+b.4104:5/23/2024 12:00:00 AM:1.5.4104 rev435
+b.4104:5/23/2024 12:00:00 AM:1.5.4104 rev435
+b.4104:5/23/2024 12:00:00 AM:1.5.4104 rev435
+ROCKETMAN:No more RocketMan <color=gray>"Log spam"</color>...
+I hope you're fucking satisfied.
+GAGARIN: <color=white>LoadModXML_Profiler</color> took <color=red>1.203</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: CombineIntoUnifiedXML has <color=red>Context.IsUsingCache=False</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>CombineIntoUnifiedXML_Profiler</color> took <color=red>0.873</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>TKeySystem.Parse</color> took <color=red>0.001</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<defName>Mech_CentipedeBlaster</defName>
+<defName>Mech_CentipedeGunner</defName>
+<defName>Mech_CentipedeBurner</defName>
+<defName>Mech_Lancer</defName>
+<defName>Mech_Legionary</defName>
+<defName>Mech_Tesseron</defName>
+<defName>Mech_Scyther</defName>
+<defName>Mech_Pikeman</defName>
+<defName>Mech_Scorcher</defName>
+<defName>Mech_Apocriton</defName>
+<defName>Mech_Termite</defName>
+<defName>Mech_Tunneler</defName>
+<defName>Mech_Centurion</defName>
+<defName>Mech_Warqueen</defName>
+<defName>Mech_Diabolus</defName>
+<defName>Mech_Logistic</defName>
+<defName>Mech_Militor</defName>
+<defName>Mech_Lifter</defName>
+<defName>Mech_Constructoid</defName>
+<defName>Mech_Fabricor</defName>
+<defName>Mech_Agrihand</defName>
+<defName>Mech_Cleansweeper</defName>
+<defName>Mech_WarUrchin</defName>
+<defName>Mech_Paramedic</defName>
+<defName>Mech_Surrogate</defName>
+<defName>Mech_LifterPlus</defName>
+<defName>Mech_ConstructoidPlus</defName>
+<defName>Mech_FabricorPlus</defName>
+<defName>Mech_AgrihandPlus</defName>
+<defName>Mech_CleansweeperPlus</defName>
+<defName>Mech_ParamedicPlus</defName>
+<defName>Mech_LifterUltra</defName>
+<defName>Mech_ConstructoidUltra</defName>
+<defName>Mech_FabricorUltra</defName>
+<defName>Mech_AgrihandUltra</defName>
+<defName>Mech_CleansweeperUltra</defName>
+<defName>Mech_ParamedicUltra</defName>
+GAGARIN: <color=white>ApplyPatches_Profiler</color> took <color=red>16.399</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.514</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+XML error: <soundImpactStuff>BulletImpact_Ground</soundImpactStuff> doesn't correspond to any field in type StuffProperties. Context: <stuffProps><categories><li>Stony</li></categories><commonality>0.20</commonality><appearance>Bricks</appearance><statOffsets><WorkToBuild>140</WorkToBuild></statOffsets><statFactors><MarketValue>0.4</MarketValue><MaxHitPoints>2.0333</MaxHitPoints><Flammability>0</Flammability><WorkToBuild>6.0</WorkToBuild><WorkToMake>1.3</WorkToMake><DoorOpenSpeed>0.45</DoorOpenSpeed><BedRestEffectiveness>0.9</BedRestEffectiveness><MeleeWeapon_CooldownMultiplier>1.30</MeleeWeapon_CooldownMultiplier><Beauty>0.9</Beauty></statFactors><canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff><color>(162,160,157)</color><soundImpactStuff>BulletImpact_Ground</soundImpactStuff><soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp><soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt><stuffAdjective>concrete</stuffAdjective></stuffProps> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find type named BiomesKit.BiomesKitControls from node <li Class="BiomesKit.BiomesKitControls"><forested>false</forested><uniqueHills>true</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception loading list element Verse.DefModExtension from XML: System.MissingMethodException: Default constructor not found for type Verse.DefModExtension
+[Ref 1F3FE38F]
+ at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x0007b] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00020] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.Activator.CreateInstance (System.Type type) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at XmlExtensions.CustomXmlLoader.ObjectFromXml[T] (System.Xml.XmlNode xmlRoot, System.Boolean doPostLoad, System.Xml.XmlNode fullRoot, System.String nameOfDef) [0x005ad] in <658cfe511108420e84a1aee91a591e04>:0 
+ at XmlExtensions.CustomXmlLoader.ListFromXml[T] (System.Xml.XmlNode listRootNode, System.Xml.XmlNode fullRoot, System.String nameOfDef) [0x001a1] in <658cfe511108420e84a1aee91a591e04>:0 
+XML:
+<modExtensions><li Class="BiomesKit.BiomesKitControls"><forested>false</forested><uniqueHills>true</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li></modExtensions> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find type named BiomesKit.BiomesKitControls from node <li Class="BiomesKit.BiomesKitControls"><forested>false</forested><uniqueHills>true</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception loading list element Verse.DefModExtension from XML: System.MissingMethodException: Default constructor not found for type Verse.DefModExtension
+[Ref 1F3FE38F] Duplicate stacktrace, see ref for original
+XML:
+<modExtensions><li Class="BiomesKit.BiomesKitControls"><forested>false</forested><uniqueHills>true</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li></modExtensions> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find type named BiomesKit.BiomesKitControls from node <li Class="BiomesKit.BiomesKitControls"><forested>false</forested><uniqueHills>true</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception loading list element Verse.DefModExtension from XML: System.MissingMethodException: Default constructor not found for type Verse.DefModExtension
+[Ref 1F3FE38F] Duplicate stacktrace, see ref for original
+XML:
+<modExtensions><li Class="BiomesKit.BiomesKitControls"><forested>false</forested><uniqueHills>true</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li></modExtensions> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find type named BiomesKit.BiomesKitControls from node <li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>false</uniqueHills><forestSparseBelow>300</forestSparseBelow><forestDenseAbove>500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception loading list element Verse.DefModExtension from XML: System.MissingMethodException: Default constructor not found for type Verse.DefModExtension
+[Ref 1F3FE38F] Duplicate stacktrace, see ref for original
+XML:
+<modExtensions><li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>false</uniqueHills><forestSparseBelow>300</forestSparseBelow><forestDenseAbove>500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li></modExtensions> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find type named BiomesKit.BiomesKitControls from node <li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>false</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception loading list element Verse.DefModExtension from XML: System.MissingMethodException: Default constructor not found for type Verse.DefModExtension
+[Ref 1F3FE38F] Duplicate stacktrace, see ref for original
+XML:
+<modExtensions><li Class="GeologicalLandforms.BiomeProperties" MayRequire="m00nl1ght.GeologicalLandforms"><allowLandforms>true</allowLandforms><allowBiomeTransitions>true</allowBiomeTransitions><disallowedLandforms><li>Badlands</li><li>DesertPlateau</li><li>DryLake</li><li>IceOasis</li></disallowedLandforms></li><li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>false</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li></modExtensions> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find type named BiomesKit.BiomesKitControls from node <li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>true</uniqueHills><forestSparseBelow>700</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception loading list element Verse.DefModExtension from XML: System.MissingMethodException: Default constructor not found for type Verse.DefModExtension
+[Ref 1F3FE38F] Duplicate stacktrace, see ref for original
+XML:
+<modExtensions><li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>true</uniqueHills><forestSparseBelow>700</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li></modExtensions> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find type named BiomesKit.BiomesKitControls from node <li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>true</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception loading list element Verse.DefModExtension from XML: System.MissingMethodException: Default constructor not found for type Verse.DefModExtension
+[Ref 1F3FE38F] Duplicate stacktrace, see ref for original
+XML:
+<modExtensions><li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>true</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li></modExtensions> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find type named BiomesKit.BiomesKitControls from node <li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>false</uniqueHills><forestSparseBelow>100</forestSparseBelow><forestDenseAbove>400</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception loading list element Verse.DefModExtension from XML: System.MissingMethodException: Default constructor not found for type Verse.DefModExtension
+[Ref 1F3FE38F] Duplicate stacktrace, see ref for original
+XML:
+<modExtensions><li Class="GeologicalLandforms.BiomeProperties" MayRequire="m00nl1ght.GeologicalLandforms"><allowLandforms>false</allowLandforms><allowBiomeTransitions>false</allowBiomeTransitions><isWaterCovered>true</isWaterCovered><beachTerrain>Ice</beachTerrain></li><li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>false</uniqueHills><forestSparseBelow>100</forestSparseBelow><forestDenseAbove>400</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li></modExtensions> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find type named BiomesKit.BiomesKitControls from node <li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>true</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception loading list element Verse.DefModExtension from XML: System.MissingMethodException: Default constructor not found for type Verse.DefModExtension
+[Ref 1F3FE38F] Duplicate stacktrace, see ref for original
+XML:
+<modExtensions><li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>true</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li></modExtensions> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not find type named BiomesKit.BiomesKitControls from node <li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>false</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception loading list element Verse.DefModExtension from XML: System.MissingMethodException: Default constructor not found for type Verse.DefModExtension
+[Ref 1F3FE38F] Duplicate stacktrace, see ref for original
+XML:
+<modExtensions><li Class="GeologicalLandforms.BiomeProperties" MayRequire="m00nl1ght.GeologicalLandforms"><allowLandforms>false</allowLandforms><allowBiomeTransitions>false</allowBiomeTransitions><isWaterCovered>true</isWaterCovered><beachTerrain>Sand</beachTerrain></li><li Class="BiomesKit.BiomesKitControls"><forested>true</forested><uniqueHills>false</uniqueHills><forestSparseBelow>1100</forestSparseBelow><forestDenseAbove>1500</forestDenseAbove><materialRandomRotation>false</materialRandomRotation><smallHillSizeMultiplier>1.5</smallHillSizeMultiplier><largeHillSizeMultiplier>2</largeHillSizeMultiplier><mountainSizeMultiplier>1.4</mountainSizeMultiplier><impassableSizeMultiplier>1.3</impassableSizeMultiplier></li></modExtensions> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+b.4104:5/23/2024 12:00:00 AM:1.5.4104 rev435
+GAGARIN: <color=white>Cache created!</color> creating cache took <color=green>0 seconds</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>ParseAndProcessXML_Profiler</color> took <color=red>12.444</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>ClearCachedPatches_Profiler</color> took <color=red>0</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Using MineableJade as a substitute for VCHE_Deepchem to calculate deep mining values.
+Could not resolve cross-reference to Verse.WorkTypeDef named FSFRefueling (wanter=mechEnabledWorkTypes) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference: No RimWorld.AbilityDef named Neko_jump found to give to Verse.DefHyperlink Verse.DefHyperlink 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference to Verse.WorkTypeDef named FSFLoading (wanter=mechEnabledWorkTypes) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference to Verse.WorkTypeDef named FSFBrewing (wanter=mechEnabledWorkTypes) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference to Verse.WorkTypeDef named FSFRefueling (wanter=mechEnabledWorkTypes) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference to Verse.WorkTypeDef named FSFLoading (wanter=mechEnabledWorkTypes) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Could not resolve cross-reference to Verse.WorkTypeDef named FSFBrewing (wanter=mechEnabledWorkTypes) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[MadSkills]: changed behavior of Great Memory trait.
+Config error in SittingSpot: has duplicate thingCategory BuildingsFurniture. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Config error in SittingSpot: has duplicate thingCategory BuildingsFurniture. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Config error in StandingSpot: has duplicate thingCategory BuildingsFurniture. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Config error in StandingSpot: has duplicate thingCategory BuildingsFurniture. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Config error in Apparel_TacHelmet: has duplicate thingCategory Helmets. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Config error in Apparel_TacHelmet: has duplicate thingCategory Helmets. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Key binding conflict: MainTab_kNumbersOverviewTab and OpenMapSearch are both bound to Z. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Key binding conflict: OpenMapSearch and MainTab_kNumbersOverviewTab are both bound to Z. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mod WRelicK's English Ayameduki Race Translations - Eveliet, Chaoura, Idearn, Idhale, Littluna, Nearmare, NC, NX, QL, SL, SK, SA, XO did not load any content. Following load folders were used:
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.515</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Adding duplicate HugsLib.UpdateFeatureDef name: ColonyGroups_1_3_07 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[WhatsMissing] Patched Dialog_BillConfig
+[WhatsMissing] Patched Dialog_BillConfig
+[Pawn Editor] Facial Animations compatibility active.
+[Pawn Editor] Humanoid Alien Races compatibility active.
+Texture Urn has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Urn has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture AnimalSleepBox has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture AnimalSleepBox has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Stool_north has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Stool_east has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Stool_north has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Stool_east has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Stool_north has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Stool_east has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Stool_north has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Stool_east has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture EndTable_north has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture EndTable_east has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture EndTable_south has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture EndTable_east has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture EndTable_north has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture EndTable_east has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture EndTable_south has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture EndTable_east has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Dresser_north has dimensions of 256 x 128, but its mask has 128 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Dresser_east has dimensions of 128 x 256, but its mask has 64 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Dresser_south has dimensions of 256 x 128, but its mask has 128 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Dresser_east has dimensions of 128 x 256, but its mask has 64 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Dresser_north has dimensions of 256 x 128, but its mask has 128 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Dresser_east has dimensions of 128 x 256, but its mask has 64 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Dresser_south has dimensions of 256 x 128, but its mask has 128 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Dresser_east has dimensions of 128 x 256, but its mask has 64 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Crematorium_north has dimensions of 384 x 256, but its mask has 192 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Crematorium_east has dimensions of 256 x 384, but its mask has 128 x 192. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Crematorium_south has dimensions of 384 x 256, but its mask has 192 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Crematorium_east has dimensions of 256 x 384, but its mask has 128 x 192. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture RelicInertCup has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture RelicInertBox has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture RelicInertTablet has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture RelicInertFragment has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture RelicInertSwordHandle has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture RelicInertCube has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationA has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationA has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationB has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationB has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationC has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationC has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationD has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationD has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationE has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationE has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationA has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationA has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationB has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationB has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationC has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationC has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationD has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationD has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationE has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture BabyDecorationE has dimensions of 128 x 128, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Blackboard_north has dimensions of 256 x 256, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Blackboard_east has dimensions of 256 x 256, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Blackboard_south has dimensions of 256 x 256, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Blackboard_east has dimensions of 256 x 256, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Blackboard_north has dimensions of 256 x 256, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Blackboard_east has dimensions of 256 x 256, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Blackboard_south has dimensions of 256 x 256, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Texture Blackboard_east has dimensions of 256 x 256, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.515</color> seconds 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Translation data for language English has 5 errors. Generate translation report for more info. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+LDK's BreachBreaksPlatform mod initialized.
+[XML Extensions] Initialized 10 SettingsMenuDef(s) and found 124 unused key(s) from 7 mod(s)
+[XML Extensions] 5885 total patches run in 16200ms, 0 failed
+Weapons Sorter: Updating 179 weapon categories.
+Sorting by tech, then by Mod
+Sorting by mod, then by None
+Sorting by mod, then by None
+Sorting by mod, then by None
+Sorting by mod, then by None
+Sorting by mod, then by None
+Sorting by mod, then by None
+Sorting by mod, then by None
+Sorting by mod, then by None
+Weapons Sorter: Update done.
+Alien race successfully completed 254 patches with harmony.
+WJP found 6 WandererJoin QuestNode types
+checking QuestNode_Root_RefugeePodCrash
+Patching QuestNode_Root_RefugeePodCrash SendLetter
+checking QuestNode_Root_RefugeePodCrash_Baby
+Patching QuestNode_Root_RefugeePodCrash_Baby SendLetter
+checking QuestNode_Root_RefugeePodCrash_Ghoul
+Patching QuestNode_Root_RefugeePodCrash_Ghoul SendLetter
+checking QuestNode_Root_WandererJoinAbasia
+Patching QuestNode_Root_WandererJoinAbasia SendLetter
+checking QuestNode_Root_WandererJoin_WalkIn
+Patching QuestNode_Root_WandererJoin_WalkIn SendLetter
+checking QuestNode_Root_WandererJoinTraitor_WalkIn
+Patching QuestNode_Root_WandererJoinTraitor_WalkIn SendLetter
+WandererJoinPlus: successfully completed 15 harmony patches.
+Walls are Solid - transpiler patched successfully.
+[Utility Columns] - Patching...
+TradingControl :: 23.3.24.19411  - #0 - Starting Harmony Patch...
+TradingControl :: 23.3.24.19411  - #2 - Patching Toils (Job Manager)
+TradingControl :: 23.3.24.19411  - #3 - Patching Orbital Drop Sites
+TradingControl :: 23.3.24.19411  - ## - Harmony Patches Applied
+TradingControl :: 23.3.24.19411  - ## - No further Patches detected..
+[TabSorting]: Fixing kitchen room role worker, thanks slippycheeze!
+[TabSorting]: Moved 3 items to manually designated categories.
+[TabSorting]: Moved 34 lights to the Lights tab.
+[TabSorting]: Moved 4 hospital furniture to the Hospital tab.
+[TabSorting]: Moved 23 storage-items to the Storage tab.
+[TabSorting]: Removing DoorTab since its empty now.
+[TabSorting]: Removing ResearchTab since its empty now.
+[TabSorting]: Removing KitchenTab since its empty now.
+[TabSorting]: Removing DecorationTab since its empty now.
+[TabSorting]: Removing BedroomTab since its empty now.
+[TabSorting]: Removing TableChairsTab since its empty now.
+Patching Projectile:
+		get_HitFlags
+		set_HitFlags
+		get_StartingTicksToImpact
+		get_DestinationCell
+		get_ExactPosition
+		get_DistanceCoveredFraction
+		get_DistanceCoveredFractionArc
+		get_ExactRotation
+		get_AnimalsFleeImpact
+		get_DrawPos
+		get_DrawMat
+		get_DamageAmount
+		get_ArmorPenetration
+		get_EquipmentDef
+		get_Launcher
+		ExposeData
+		Launch
+		Launch
+		Tick
+		CheckForFreeInterceptBetween
+		CheckForFreeIntercept
+		ThrowDebugText
+		DrawAt
+		get_ArcHeightFactor
+		CanHit
+		ImpactSomething
+		Impact
+		DrawShadow
+Patching CoverUtility:
+		CalculateCoverGiverSet
+		CalculateOverallBlockChance
+		TryFindAdjustedCoverInCell
+		BaseBlockChance
+		BaseBlockChance
+		TotalSurroundingCoverScore
+		ThingCovered
+Patching DebugOutputsGeneral:
+		WeaponClasses
+		damage
+		armorPenetration
+		stoppingPower
+		warmup
+		cooldown
+		burstShots
+		fullcycle
+		accTouch
+		accShort
+		accMed
+		accLong
+		accAvg
+		dpsAvg
+		dpsMissless
+		WeaponsRanged
+		Turrets
+		WeaponsMelee
+		DoTablesInternalMelee
+		Tools
+		ResearchProjects
+		ThingsExistingList
+		ThingFillageAndPassability
+		ThingPathCosts
+		ThingDamageData
+		UnfinishedThings
+		ThingMasses
+		ThingFillPercents
+		ThingNutritions
+		MakeTablePairsByThing
+		ToStringEmptyZero
+		ToStringPercentEmptyZero
+		ToStringCheckBlank
+		<Turrets>g__fuelCapacity|16_0
+		<Turrets>g__fuelType|16_1
+		<Turrets>g__fuelToReload|16_2
+		<ThingMasses>g__perNutrition|26_5
+		<WeaponClasses>b__3
+		<WeaponClasses>b__0_2
+		<WeaponClasses>b__0_0
+		<WeaponClasses>b__0_1
+		<WeaponsRanged>b__15_0
+		<WeaponsRanged>b__15_1
+		<WeaponsRanged>b__15_2
+		<WeaponsRanged>b__15_3
+		<WeaponsRanged>b__15_4
+		<WeaponsRanged>b__15_5
+		<WeaponsRanged>b__15_6
+		<WeaponsRanged>b__15_7
+		<WeaponsRanged>b__15_8
+		<WeaponsRanged>b__15_9
+		<WeaponsRanged>b__15_10
+		<WeaponsRanged>b__15_11
+		<WeaponsRanged>b__15_12
+		<WeaponsRanged>b__15_13
+		<WeaponsRanged>b__15_14
+		<WeaponsRanged>b__15_15
+		<WeaponsRanged>b__15_16
+		<WeaponsRanged>b__15_17
+		<WeaponsRanged>b__15_18
+		<WeaponsRanged>b__15_19
+		<WeaponsRanged>b__15_20
+		<WeaponsRanged>b__15_21
+		<WeaponsRanged>b__15_22
+		<WeaponsRanged>b__15_23
+		<WeaponsRanged>b__15_24
+		<WeaponsRanged>b__15_25
+		<WeaponsRanged>b__15_26
+		<Turrets>b__16_3
+		<Turrets>b__16_4
+		<Turrets>b__16_5
+		<Turrets>b__16_6
+		<Turrets>b__16_35
+		<Turrets>b__16_7
+		<Turrets>b__16_8
+		<Turrets>b__16_9
+		<Turrets>b__16_10
+		<Turrets>b__16_11
+		<Turrets>b__16_12
+		<Turrets>b__16_13
+		<Turrets>b__16_14
+		<Turrets>b__16_15
+		<Turrets>b__16_16
+		<Turrets>b__16_17
+		<Turrets>b__16_18
+		<Turrets>b__16_19
+		<Turrets>b__16_20
+		<Turrets>b__16_21
+		<Turrets>b__16_22
+		<Turrets>b__16_23
+		<Turrets>b__16_24
+		<Turrets>b__16_25
+		<Turrets>b__16_26
+		<Turrets>b__16_27
+		<Turrets>b__16_28
+		<Turrets>b__16_29
+		<Turrets>b__16_30
+		<Turrets>b__16_31
+		<Turrets>b__16_32
+		<Turrets>b__16_33
+		<Turrets>b__16_34
+		<WeaponsMelee>b__17_0
+		<WeaponsMelee>b__17_1
+		<WeaponsMelee>b__17_2
+		<WeaponsMelee>b__17_4
+		<DoTablesInternalMelee>b__18_25
+		<DoTablesInternalMelee>b__18_26
+		<DoTablesInternalMelee>b__18_27
+		<DoTablesInternalMelee>b__18_28
+		<DoTablesInternalMelee>b__18_29
+		<DoTablesInternalMelee>b__18_30
+		<DoTablesInternalMelee>b__18_8
+		<DoTablesInternalMelee>b__18_9
+		<DoTablesInternalMelee>b__18_10
+		<DoTablesInternalMelee>b__18_12
+		<DoTablesInternalMelee>b__18_23
+		<DoTablesInternalMelee>b__18_24
+		<Tools>b__19_0
+		<Tools>b__19_1
+		<Tools>b__19_2
+		<Tools>b__19_3
+		<Tools>b__19_4
+		<Tools>b__19_5
+		<Tools>b__19_6
+		<Tools>b__19_7
+		<Tools>b__19_8
+		<Tools>b__19_9
+		<Tools>b__19_10
+		<Tools>b__19_11
+		<Tools>b__19_13
+		<ResearchProjects>b__20_0
+		<ResearchProjects>b__20_1
+		<ResearchProjects>b__20_2
+		<ResearchProjects>b__20_3
+		<ResearchProjects>b__20_4
+		<ResearchProjects>b__20_5
+		<ResearchProjects>b__20_6
+		<ResearchProjects>b__20_7
+		<ResearchProjects>b__20_8
+		<ResearchProjects>b__20_9
+		<ResearchProjects>b__20_10
+		<ResearchProjects>b__20_13
+		<ThingFillageAndPassability>g__GetAlerts|22_0
+		<ThingFillageAndPassability>b__22_1
+		<ThingFillageAndPassability>b__22_2
+		<ThingFillageAndPassability>b__22_3
+		<ThingFillageAndPassability>b__22_4
+		<ThingFillageAndPassability>b__22_5
+		<ThingFillageAndPassability>b__22_6
+		<ThingFillageAndPassability>b__22_7
+		<ThingFillageAndPassability>b__22_8
+		<ThingFillageAndPassability>b__22_9
+		<ThingPathCosts>b__23_0
+		<ThingPathCosts>b__23_1
+		<ThingPathCosts>b__23_2
+		<ThingPathCosts>b__23_3
+		<ThingPathCosts>b__23_4
+		<ThingPathCosts>b__23_5
+		<ThingPathCosts>b__23_6
+		<ThingPathCosts>b__23_7
+		<ThingDamageData>b__24_0
+		<ThingDamageData>b__24_1
+		<ThingDamageData>b__24_2
+		<ThingDamageData>b__24_3
+		<ThingDamageData>b__24_4
+		<ThingDamageData>b__24_5
+		<ThingDamageData>b__24_6
+		<ThingDamageData>b__24_7
+		<ThingDamageData>b__24_8
+		<ThingDamageData>b__24_9
+		<UnfinishedThings>b__25_0
+		<UnfinishedThings>b__25_1
+		<UnfinishedThings>b__25_2
+		<UnfinishedThings>b__25_3
+		<UnfinishedThings>b__25_4
+		<UnfinishedThings>b__25_5
+		<UnfinishedThings>b__25_7
+		<UnfinishedThings>b__25_8
+		<ThingMasses>b__26_0
+		<ThingMasses>b__26_1
+		<ThingMasses>b__26_2
+		<ThingMasses>b__26_3
+		<ThingMasses>b__26_4
+		<ThingMasses>b__26_6
+		<ThingMasses>b__26_7
+		<ThingMasses>b__26_11
+		<ThingMasses>b__26_12
+		<ThingFillPercents>b__27_0
+		<ThingFillPercents>b__27_1
+		<ThingFillPercents>b__27_2
+		<ThingFillPercents>b__27_3
+		<ThingFillPercents>b__27_4
+		<ThingNutritions>b__28_0
+		<ThingNutritions>b__28_1
+		<ThingNutritions>b__28_2
+		<ThingNutritions>b__28_3
+		<ThingNutritions>b__28_4
+		<MakeTablePairsByThing>b__29_1
+		<MakeTablePairsByThing>b__29_5
+		<WeaponsMelee>b__3
+		<WeaponsMelee>b__5
+		<DoTablesInternalMelee>g__meleeDamageGetter|0
+		<DoTablesInternalMelee>g__meleeAPGetter|1
+		<DoTablesInternalMelee>g__rangedDamageGetter|2
+		<DoTablesInternalMelee>g__rangedWarmupGetter|3
+		<DoTablesInternalMelee>g__meleeCooldownGetter|4
+		<DoTablesInternalMelee>g__rangedCooldownGetter|5
+		<DoTablesInternalMelee>g__meleeDpsGetter|6
+		<DoTablesInternalMelee>g__marketValueGetter|7
+		<DoTablesInternalMelee>b__11
+		<DoTablesInternalMelee>b__13
+		<DoTablesInternalMelee>b__14
+		<DoTablesInternalMelee>b__15
+		<DoTablesInternalMelee>b__16
+		<DoTablesInternalMelee>b__17
+		<DoTablesInternalMelee>b__18
+		<DoTablesInternalMelee>b__19
+		<DoTablesInternalMelee>b__20
+		<DoTablesInternalMelee>b__21
+		<DoTablesInternalMelee>b__22
+		<Tools>b__12
+		<Tools>b__34
+		<Tools>b__14
+		<Tools>b__15
+		<Tools>b__16
+		<Tools>b__17
+		<Tools>b__18
+		<Tools>b__19
+		<Tools>b__20
+		<Tools>b__21
+		<Tools>b__22
+		<Tools>b__23
+		<Tools>b__24
+		<Tools>b__25
+		<Tools>b__26
+		<Tools>b__27
+		<Tools>b__28
+		<Tools>b__29
+		<Tools>b__30
+		<Tools>b__31
+		<Tools>b__32
+		<Tools>b__33
+		<ResearchProjects>b__11
+		<ResearchProjects>b__12
+		<ThingsExistingList>b__0
+		<UnfinishedThings>b__6
+		<UnfinishedThings>b__9
+		<ThingMasses>b__8
+		<ThingMasses>b__9
+		<ThingMasses>b__10
+		<MakeTablePairsByThing>b__0
+		<MakeTablePairsByThing>b__2
+		<MakeTablePairsByThing>b__3
+		<MakeTablePairsByThing>b__4
+		<MakeTablePairsByThing>b__6
+Patching CoverGrid:
+		get_Item
+		get_Item
+		Register
+		DeRegister
+		RecalculateCell
+Patching ShotReport:
+		get_FactorFromPosture
+		get_FactorFromExecution
+		get_AimOnTargetChance_StandardTarget
+		get_AimOnTargetChance_IgnoringPosture
+		get_AimOnTargetChance
+		get_PassCoverChance
+		get_TotalEstimatedHitChance
+		get_ShootLine
+		HitReportFor
+		HitFactorFromShooter
+		HitFactorFromShooter
+		GetTextReadout
+		GetRandomCoverToMissInto
+		<GetRandomCoverToMissInto>b__32_0
+
+[StuffMassMatters]: Cached 8 stuffcategories
+[TimeControl]: Adding support for Snap Out!
+MendingWeaponStoragePatch Harmony Patches:
+  Postfix:
+    WorkGiver_DoBill.TryFindBestBillIngredients - Priority Last
+[WhatsMissing] Patched Dialog_BillConfig
+Wall Light: v1.0.0.0
+[BPC] Misc. Robots functionality integrated
+[BPC] Work Tab functionality integrated
+[KB_Prioritize_Research] - patching to allow research prioritizing.
+NepSmallerTurbines Loaded
+NepSmallerTurbines Setting Value of Tweakable RimWorld.CompPowerPlantWind BladeWidth to 4
+Error in static constructor of NepSmallerTurbines.NepSmallerTurbines: System.TypeInitializationException: The type initializer for 'NepSmallerTurbines.NepSmallerTurbines' threw an exception. ---> System.TypeLoadException: Could not resolve type with token 01000023 (from typeref, class/assembly Verse.TweakValue, Assembly-CSharp, Version=1.4.8329.22675, Culture=neutral, PublicKeyToken=null)
+[Ref B0436E5C]
+ at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+ at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at System.Reflection.MonoField.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at Verse.GenAttribute.TryGetAttribute[T] (System.Reflection.MemberInfo memberInfo, T& customAttribute) [0x00000] in <f0ac5eb9b52e4cc396c70fc9a4ee15e5>:0 
+ at Verse.GenAttribute.TryGetAttribute[T] (System.Reflection.MemberInfo memberInfo) [0x00008] in <f0ac5eb9b52e4cc396c70fc9a4ee15e5>:0 
+ at <0x165109fb460 + 0x00162> <unknown method>
+   --- End of inner exception stack trace ---
+[Ref E394E5B5]
+ at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+ at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00028] in <f0ac5eb9b52e4cc396c70fc9a4ee15e5>:0 
+     - TRANSPILER net.pardeike.rimworld.lib.harmony: IEnumerable`1 VisualExceptions.ExceptionsAndActivatorHandler:Transpiler(IEnumerable`1 instructions, MethodBase original)
+     - POSTFIX net.avilmask.rimworld.mod.ResearchWhatever: Void ResearchWhatever.StaticConstructorOnStartupUtility_Patch+StaticConstructorOnStartupUtility_CallAll_ResearchWhateverPatch:Postfix()
+     - POSTFIX LunarFramework.Bootstrap: Void LunarFramework.Internal.Patches.Patch_Verse_StaticConstructorOnStartupUtility:CallAll_Postfix() 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[BadLeatherCategory]: Note that Leather_Human is also used by non-humanlikes. Gorehulk, Corpse_Gorehulk
+[BadLeatherCategory]: Moved 2 leather to the Bad Leather-category
+[BadMeatCategory]: Moved 4 meat to the Bad Meat-category
